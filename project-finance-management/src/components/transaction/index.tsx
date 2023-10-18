@@ -1,5 +1,3 @@
-import { Header } from "../../components/Header";
-import { Summary } from "../../components/Summary";
 import {
   PriceHighlight,
   TransactionsContainer,
@@ -9,8 +7,6 @@ import {
 export function Transactions() {
   return (
     <div>
-      <Header />
-      <Summary />
       <TransactionsContainer>
         <TransactionsTable>
           <tbody>
